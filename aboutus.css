@@ -1,0 +1,44 @@
+.header
+{
+	margin:0;
+	padding:0;
+	background: linear-gradient(120deg,#2980b9, #8e44ad);
+	height: 127vh;
+	width: 100%;
+}
+.col-2 .logo{
+	width: 220px;
+	height: 50px;
+	margin-left: 2px;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+p{
+	font-size: 20px;
+	font-family: Sans-serif;
+}
+a:hover{
+	background-color: green;
+	font-family: ariel;
+}
+.row{
+	display: flex;
+	align-items: center;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.col-2{
+	flex-basis: 70%;
+	min-width: 300px;
+	margin-left: 30px;
+}
+.col-2 img{
+	padding: 20px;
+	margin-left: 120px;
+	height: 350px;
+	width:450px;
+}
